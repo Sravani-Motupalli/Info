@@ -1,0 +1,42 @@
+Honeywell:
+
+Honeywell is a product based company and it has a product called as Vocollect, which is a Voice based product works similar to Alexa but it is a industrial product mainly used in Warehouses, Distribution Centers (DC's)
+
+and R&O centers to improve safety to operators, productivity and reduced errors impacting cycle time output.
+
+ 
+
+Vocollect Product:
+
+Vocollect product have a talkman device and a SRX headset, these devices are connected through Wi-Fi. The headset receives the voice commands from the operator, talkman device converts the voice-text and send the commands to Voice
+
+Application which process the data and interacts with the backend database/WMS. Vocollect VoiceLink provides a flexible and highly configurable middleware which supports near real-time processing directly through the WMS, ERP, or inventory management system.
+
+ 
+
+VoiceLink application works as middle ware application between the Vocollect devices and the WMS/ERP systems. Using this application the warehouse users can view the amount of work completed by the warehouse user,
+
+list of tasks assigned and any other data related to the work. VoiceLink has different modules such as Picking, Put away, Replenishment and Cycle Count as different features. Using this application the users can configure any jobs/triggers
+
+required and can generate any reports related to the work.
+
+ 
+
+Roles:
+
+Being a part of customization team, I work with different customers and customize the product as per their requirement. I work with BA's & customers to get the requirements during requirement gathering phase.
+
+Involve in preparing the Design document (we call it as Engineering Design Document EDD) for the technical details and work on the development during the development phase. Perform testing once the development is completed.
+
+ 
+
+Technical:
+
+The VoiceLink application is a web based application developed using Java/J2EE. The front end is developed using AngularJS, HTML5, CSS3, JQuery and free marker templates.
+The backend is developed using J2EE frameworks like Spring and Spring boot.
+Hibernate is used in the DAO layer for persisting the data to DB.
+REST webservices are used to integrate the WMS/ERP systems with the VoiceLink application.
+We usually consume and also produce the services. Use SOAP UI/Postman to test the connectivity of the webservices.
+We have different modules such as Picking, Putaway, Replenishment and to decouple these we have used Microservices with Spring boot.
+We use SQL server as the databased and GitHub as the source control. Use ANT/Maven along with Jenkins for building the applications.
+We strictly follow Agile methodology and use JIRA as the tracking tool.
